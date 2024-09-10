@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "139972476146",
+    "project_id": "share-location-459b9",
+    "storage_bucket": "share-location-459b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139972476146:android:71796eafb69e5c5c60646b",
+        "android_client_info": {
+          "package_name": "com.example.sharelocation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBw5yPutrKpDvShHtXo088SqrTH_9KBAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

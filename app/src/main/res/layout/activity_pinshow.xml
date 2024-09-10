@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".pinShow">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="385dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="-150dp"
+        android:text="Now you can Share your Loaction:"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+        android:textAlignment="center"
+        android:textSize="18dp"
+
+        android:layout_marginTop="18dp"
+        android:text="TextView" />
+
+    <ImageButton
+        android:id="@+id/msgBtn"
+        android:layout_width="63dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/share"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/deletePin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:backgroundTint="#D8D81B0D"
+        android:text="Turn Off" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C92646F6"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_marginTop="-410dp"
+        android:theme="?attr/actionBarTheme" />
+
+
+</LinearLayout>
